@@ -1,0 +1,70 @@
+
+*{
+	margin: auto;
+}
+#win{
+	width: 400px; height: 400px;background-color: white; margin-top: 10%;
+	box-shadow: 0px 0px 15px 5px gray;
+	padding: 0px 20px 20px 20px;
+}
+#win:hover{
+	box-shadow: 0px 0px 15px 5px black;
+}
+#close{
+	width: 30px;height: 30px; background-image: url(../pics/closeico.png);
+	background-size: contain; float: right;
+	margin-top: 8px; margin-right: 8px; cursor: pointer;
+}
+.logo{
+	width:100px;height:100px; border-radius: 50%; border: 1px gray double;
+}
+input[type="text"],input[type="password"]{
+	width: 100%;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bolder; color: red;
+	outline: none;
+	border: 1px black solid;
+	
+}
+input[type="text"]:focus{
+	background-color: bisque;
+	
+}
+input[type="password"]:focus{
+	background-color: bisque;
+	
+}
+input[type="text"]:hover{
+	border: 1px red solid;
+}
+input[type="password"]:hover{
+	border: 1px red solid;
+}
+.bld{color:red; font-weight: bolder;}
+
+.btn
+{
+	width: 140px;  background-color: red; color: white;
+	padding: 15px;
+	 font-weight: bolder;
+	outline: none;
+	border: 1px black solid; margin-top: 10px;;
+	cursor: pointer;
+	margin-left: 100px;
+}
+#forgot
+{
+	color:"#1a73e8";
+	font-family: monospace;
+	font-weight: bold;font-size: 15px; float: right;
+	margin-top: 35px;
+}
+
+
+
+
+
+
+
+

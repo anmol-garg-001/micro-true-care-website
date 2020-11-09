@@ -1,0 +1,90 @@
+body{
+	background-color: dimgray;
+	background-image: url(../pics/bg3.png);
+	background-attachment: fixed;
+}
+#box{
+	width: 1000px; height: 1000px; background-color: white;
+}
+
+/*Universal Selector*/
+*{
+	margin: auto;
+}
+#title-div{
+	width: inherit; height: 80px; background-color: #F4D03F;
+}
+.logo{
+	width: 70px; height: 70px; background-image: url(../pics/agent.jpg);
+	float: left; background-size: contain; margin-left: 20px; margin-top: 5px;
+	border-radius: 50%; 
+}
+.logo:hover{
+	transform: scale(1.2);
+		transition: ease all 1s;
+
+}
+#site-title
+{
+		display: inline;
+	font-size: 40px;
+	font-style: italic; margin-top: 15px; float: left; margin-left: 30px;
+	text-shadow: 5px 5px 5px black;
+}
+.logo-fb{
+	float: right; background-image: url(../pics/email2.jpg); margin-right: 30px;
+		transition: ease all 1s;
+
+}
+.logo-fb:hover{
+	transform: rotate(360deg);
+	transition: ease all 1s;
+}
+
+#big-pic{
+	width: inherit; height: 300px; background-color: white;
+	background-image: url(../pics/banner1.jpg);
+	background-size: cover;
+	/*background-repeat: no-repeat; background-position: center;*/
+}
+
+#menu-div{
+	width: inherit; height: 60px; background-color: #232F3E;
+}
+
+#contents-div{
+	width: inherit; height: 520px; background-color: black;
+}
+#left-div
+{
+	width: 200px; height: inherit; background-color: antiquewhite; float: left;
+}
+#center-div
+{
+	width: 600px; height: inherit; background-color: azure; float: left;
+}
+#right-div
+{
+	width: 200px; height: inherit; background-color: dodgerblue; float: left;
+	overflow: scroll;
+}
+#copy-right-div
+{
+	width: inherit; height: 40px; background-color: black; 
+	
+}
+
+#left-div img
+{
+	width: 160px; height: 160px; margin-left: 20px;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
